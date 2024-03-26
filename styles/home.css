@@ -1,0 +1,111 @@
+h1 {
+  color: var(--text-light);
+  font-size: var(--fs-xxl);
+  font-weight: 700;
+  line-height: 85px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+  font-size: 2.5rem;
+  }
+}
+
+
+.head-pannel img {
+  height: 24px;
+  width: auto;
+  margin-left: var(--spacing-medium);
+}
+
+@media (max-width: 768px) {
+  .head-pannel img {
+    display: block;
+    margin-top: var(--spacing-medium);
+    margin-left: var(--spacing-small);
+  }
+}
+
+
+.head-pannel p {
+  color: var(--text-white);
+  font-size: var(--fs-large);
+  margin-bottom: var(--spacing-medium);
+}
+
+.head-pannel p:last-of-type {
+  margin-bottom: var(--spacing-xl);
+}
+
+
+.head-pannel span {
+  color: var(--text-secondary);
+}
+
+
+.head-pannel button{
+  color: var(--text-light);
+  background-color: var(--button-color);
+  font-size: var(--fs-medium);
+  border: 2px solid var(--button-color);
+  border-radius: 5px;
+  width: 260px;
+  padding: var(--spacing-medium);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.head-pannel button:hover{
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .head-pannel button {
+    display: none;
+  }
+}
+
+.wrapper {
+  padding: 0 var(--spacing-small) var(--spacing-small);
+}
+
+.courses h3 {
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-medium);
+}
+
+.course-details .material-symbols-outlined {
+  font-size: var(--fs-medium);
+  vertical-align: middle;
+}
+
+.about-company img {
+  width: 100%;
+  height: auto;
+  margin-bottom: var(--spacing-small);
+}
+
+.partners-wrapper {
+  width: 125px;
+  margin-right: var(--spacing-xl);
+  margin-left: var(--spacing-xl);
+  margin-bottom: var(--spacing-medium);
+}
+
+@media (max-width: 768px) {
+  .partners-wrapper {
+    margin-right: var(--spacing-medium);
+    margin-left: var(--spacing-medium);
+  }
+}
+
+.partners img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.partners img:hover {
+  filter: none;
+}
+
+

@@ -1,0 +1,42 @@
+h1 {
+  color: var(--text-light);
+  font-size: var(--fs-xxl);
+  font-weight: 700;
+  padding: var(--spacing-medium);
+}
+
+@media (max-width: 768px) {
+  h1 {
+  font-size: var(--fs-xl);
+  }
+}
+
+.courses {
+  padding: 0 var(--spacing-small) 0 var(--spacing-small);
+}
+
+.wrapper {
+  padding: 0 var(--spacing-small) var(--spacing-medium);
+}
+
+h3 {
+  margin-bottom: var(--spacing-medium);
+  color: var(--text-primary);
+}
+
+.row .material-symbols-outlined {
+  font-size: var(--fs-medium);
+  margin-right: var(--spacing-tiny);
+  margin-top: var(--spacing-tiny);
+}
+
+button {
+  font-size: var(--fs-medium);
+  background-color: var(--button-color);
+  color: var(--text-white);
+  border: 1px solid var(--button-color);
+  border-radius: 0.3rem;
+  height: 30px;
+  width: 100px;
+  margin-bottom: var(--spacing-tiny);
+}

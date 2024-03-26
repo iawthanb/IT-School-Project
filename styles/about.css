@@ -1,0 +1,49 @@
+h1 {
+  color: var(--text-light);
+  font-size: var(--fs-xxl);
+  font-weight: 700;
+  padding: var(--spacing-medium);
+}
+
+@media (max-width: 768px) {
+  h1 {
+  font-size: var(--fs-xl);
+  }
+}
+
+.card {
+  min-height: 350px;
+  margin-top: calc(2 * var(--spacing-xl));
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.trainer {
+  width: 150px;
+  height: 150px;
+  margin-top: -70px;
+  filter: grayscale(100%);
+}
+
+.trainer img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: var(--fs-large);
+  padding: var(--spacing-tiny) 0;
+  margin-top: -25px;
+}
